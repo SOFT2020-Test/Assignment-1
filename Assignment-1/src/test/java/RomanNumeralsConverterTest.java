@@ -31,7 +31,8 @@ class RomanNumeralsConverterTest {
     private static Stream<Arguments> argumentsForRomanConverter() {
         return Stream.of(
                 Arguments.of(1, "I"),
-                Arguments.of(2, "II")
+                Arguments.of(2, "II"),
+                Arguments.of(-1, null)
         );
     }
 }
