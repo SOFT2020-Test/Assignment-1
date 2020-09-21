@@ -14,5 +14,4 @@ class TemperatureConverterTest {
         double result = TemperatureConverter.convertCelsiusOrFahrenheit(41, "fahrenheit");
         assertEquals(105.8, result);
     }
-
 }
