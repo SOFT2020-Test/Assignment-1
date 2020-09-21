@@ -1,6 +1,4 @@
-package main;
-
-public class RomanConverter {
+public class RomanNumeralsConverter {
     public static String intToRomanNumerals(int number) {
         if(number < 1) {
             return null;
