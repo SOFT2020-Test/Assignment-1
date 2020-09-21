@@ -19,8 +19,14 @@ public class ConverterTest extends TestCase {
     }
 
     @Test
-    public void testIntToRoman() {
+    public void testIntToRoman() throws Exception {
         String result = Converter.intToRomanNumerals(10);
         assertEquals("X", result);
+    }
+
+    @Test
+    public void testIntToRomanMinus() throws Exception {
+        String result = Converter.intToRomanNumerals(-1);
+        assertEquals(null, result);
     }
 }
