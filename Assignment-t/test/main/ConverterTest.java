@@ -1,11 +1,9 @@
-package test;
+package main;
 
 import junit.framework.TestCase;
-import main.Converter;
 import org.junit.Test;
 
 public class ConverterTest extends TestCase {
-
     @Test
     public void testConvertFahrenheitToCelsius() {
         double result = Converter.convertCelsiusOrFahrenheit(41, "celsius");
