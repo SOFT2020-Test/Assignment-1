@@ -12,7 +12,7 @@ public class TemperatureConverter {
             }
         } catch (Exception ex) {
             throw ex;
-        }
+        };
         return 0;
     }
 }
